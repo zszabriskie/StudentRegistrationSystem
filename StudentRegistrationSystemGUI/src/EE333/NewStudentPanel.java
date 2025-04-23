@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class NewStudentPanel extends javax.swing.JPanel {
     
     
-    // getters
+    // Charlotte 4/22 2:19PM - Added getters
     public String getStudentFirstName() {
     return jTextFirstName.getText();
 }
@@ -38,7 +38,7 @@ public String getSelectedLevel() {
         initComponents();
     }
     
-    // level options for panel calling...
+    // Charlotte 4/22 2:23 - level options for panel calling...
     public void setLevelOptions(String[] levels) { 
     jComboLevel.removeAllItems();
     for (String level : levels) {
@@ -332,4 +332,3 @@ public String getSelectedLevel() {
     private javax.swing.JTextField jTextStatus;
     // End of variables declaration                   
 }
-
