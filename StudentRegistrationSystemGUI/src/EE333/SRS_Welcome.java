@@ -17,6 +17,7 @@ public class SRS_Welcome extends javax.swing.JFrame {
         
         initComponents();
         
+    // Charlotte 4/22 2:12PM - New Student Variables    
         String[] levelOptions = {"Undergraduate", "Graduate", "Instructor", "Other"};
         newStudentPanel1.setLevelOptions(levelOptions);
         
@@ -421,4 +422,3 @@ public class SRS_Welcome extends javax.swing.JFrame {
     private EE333.NewStudentPanel newStudentPanel1;
     // End of variables declaration                   
 }
-
