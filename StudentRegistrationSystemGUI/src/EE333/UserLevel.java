@@ -11,6 +11,5 @@ package EE333;
 public enum UserLevel {
     Undergraduate,
     Graduate,
-    Instructor,
     Other
 }
